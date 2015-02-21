@@ -20,7 +20,13 @@ h1{
   padding-top:60px;
   padding-bottom:70px;  
 }
-
+ul p {
+  top:90.5%;
+  width:100%;
+  position:fixed;
+  z-index:0;
+  padding:1%;
+}
 li{
    list-style-type :none;
    width:90%;
