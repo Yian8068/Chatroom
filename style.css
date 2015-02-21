@@ -20,8 +20,8 @@ h1{
   padding-top:60px;
   padding-bottom:70px;  
 }
-ul p{
-    top:91.5%;
+#counter{
+  top:91.5%;
   width:100%;
   position:fixed;
   padding:1%;
