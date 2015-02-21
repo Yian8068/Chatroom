@@ -17,9 +17,9 @@ app.controller("ChatCtrl",function($scope,$firebase){
     if(m.length===0){m="Anonymous";};
     if(txt.length===0){txt="(empty)";};
     //updateClock(); 
-    var a=clock.now;
+    //var a=clock.now;
     //var c=prompt("Time",a);
-    var c=a.toLocaleString();
+    var c=clock.now.getTime().toString();
     $scope.messages.$add({text:txt,name:m,time:c});
     $scope.newMessage="";
   };
