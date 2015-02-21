@@ -21,7 +21,8 @@ h1{
   padding-bottom:70px;  
 }
 #counter{
-  top:75%;
+  top:85%;
+  left:2%;
   width:100%;
   position:fixed;
   padding:1%;
