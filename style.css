@@ -12,7 +12,7 @@ h1{
   z-index:1;
   text-align:center;  
   color:white;
-  font-family:;
+  font-family:sans-serif;
   background-color:#415E9B;
 }
 .contentdiv{
@@ -116,4 +116,20 @@ font-weight:bold;
 input{
 border-radius:5px;
  border:none;
+ font-size:20px;
+}
+#createTime{
+    color:#A0A0A0;
+  font: 12px/12px Georgia, serif;
+  
+}
+#oldmessagename{
+  color:#415E81;
+  text-decoration:underline;
+  font:  bold 15px sans-serif;
+}
+#oldmessagetxt{
+  color:black;
+  font:18px sans-serif;
+  padding-left:20px;
 }
