@@ -23,7 +23,10 @@
           </div >
         
         <div class="oldmessage" >
-          <p >{{msg.name}}：<br>{{msg.text}}</p>
+          <p ><span id="oldmessagename">{{msg.name}}</span>：
+          <br><span id="oldmessagetxt">{{msg.text}}</span> 
+          <br><span id="createTime">-發表於 {{msg.time|date:[medium]}}</span></p>
+        </div>
         </div>
         </div>
       </li>
